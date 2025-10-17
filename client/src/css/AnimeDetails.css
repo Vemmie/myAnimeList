@@ -1,0 +1,12 @@
+/* Styles for the View More (Details of an Anime Page) */
+.details {
+    /* Padding for all the content */
+    padding-left: 20px;
+}
+
+.details p {
+    /* Styles for the paragraphs in the details */
+    font-family: Arial;
+    font-size: 16px;
+    margin: 8px 0;
+}

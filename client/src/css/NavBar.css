@@ -1,0 +1,11 @@
+.navBar a {
+    /* Targets the Links within the nav container */
+    color: #e9e9e9; 
+    font-weight: bold;
+    margin-top: 20px;
+    margin-right: 15px;
+    margin-left: 5px;
+    text-decoration: 20px;
+    /* Font Family */
+    font-family: Arial; 
+}

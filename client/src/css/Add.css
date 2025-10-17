@@ -1,0 +1,63 @@
+.backgroundAdd {
+    /* This gives the main background of the page
+    displayed on the outlet on App.jsx */
+    background-color: #e9e9e9;
+    margin-top: 0%;
+    display: flex;
+    width: 80%;
+    height: 760px;
+    margin-left: 10%;
+}
+
+.formCenter {
+    /* This makes the form is in the center of the page */
+    justify-content: center;
+    margin-top: 10%;
+    margin-left: 15%;
+    width: 25%;
+}
+
+label {
+    /* Styles the label text of the form */
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: Arial; 
+}
+
+.button {
+    /* Styling for the button */
+    display: block;
+
+    /* Text Changes */
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: Arial; 
+    font-weight: bold;
+    
+    /* Positioning */
+    width: 60%;
+    margin: 5px auto; 
+    margin-top: 12px; 
+    padding: 12px 24px;
+    background-color: #4759B3;
+    
+    /* Border stuff */
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    
+}
+
+.button:hover {
+    /* For the button hover */
+    background-color: #3b5998;
+    box-shadow: 0 2px 6px grey;
+}
+
+.required {
+    /* Makes the * red to show it's a required field */
+    color: red;
+}

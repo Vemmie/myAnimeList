@@ -1,0 +1,34 @@
+.animeGrid {
+    /* Styles the main grid that will hold all the "cards" of the anime in the list */
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    width: 95%; 
+    margin-top: 1%;
+    gap: 20px;
+}
+
+.animeCard {
+    /* Styles the card that will hold the info of the anime which will be in the grid */
+    background-color: #3b5998;
+    border-radius: 5px;
+    text-align: center;
+    width: 275px;
+    box-sizing: border-box;
+    height: 325px;
+}
+
+.animeCard div {
+    /* Styles the divs and makes them not touching */
+    margin: 10px;
+    padding: 5px;
+}
+
+.h3View {
+    /* Header 2 Styling */
+    margin: 5px;
+    padding: 5px;
+    text-decoration: none;
+    color: #e9e9e9;
+    font-family: Arial; 
+}

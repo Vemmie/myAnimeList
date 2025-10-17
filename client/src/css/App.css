@@ -1,0 +1,32 @@
+body {
+  /* Added Minimun height so it covers the full screen */
+  min-height: 100vh; 
+  background-image: url('../images/background.jpg');
+  /* removes the margin */
+  margin: 0;
+  padding: 0;
+}
+
+.title-wrapper {
+  /* Filling out the full top around the title area */
+  background-color: #e9e9e9;
+  padding: 15px 0;
+}
+
+.title {
+    /* Navy Blue Text and Bold Text*/
+    color: #4759B3; 
+    font-weight: bold; 
+    /* Font Family */
+    font-family: Arial; 
+    /* Centering Text */
+    text-align: center; 
+}
+
+.nav {
+    /* Makes the nav div blue and spans accross the page */
+    background-color: #4759B3;
+    width: 100%;
+    height: 30px;
+    padding-top: 10px;
+}
